@@ -15,8 +15,8 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-border">
+    <div className="min-h-screen bg-background">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-background border-b border-border">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center space-x-3">
@@ -102,16 +102,16 @@ const Index = () => {
               </div>
               <div className="relative h-[500px] animate-fade-in">
                 <img 
-                  src="https://cdn.poehali.dev/projects/05a98edc-4d4f-4557-b902-00cdae17e2eb/files/a0b0cb38-f25b-48fc-a6e2-656c3fd407db.jpg"
+                  src="https://cdn.poehali.dev/projects/05a98edc-4d4f-4557-b902-00cdae17e2eb/files/751b0038-f95e-48a2-9256-4c99152bd824.jpg"
                   alt="Декоративные коробки"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover rounded-lg"
                 />
               </div>
             </div>
           </div>
         </section>
 
-        <section id="products" className="py-24 bg-white">
+        <section id="products" className="py-24 bg-background">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4">Каталог продукции</h2>
@@ -174,16 +174,16 @@ const Index = () => {
               </div>
               <div className="relative h-[500px]">
                 <img 
-                  src="https://cdn.poehali.dev/projects/05a98edc-4d4f-4557-b902-00cdae17e2eb/files/052e0832-3f4f-4c06-a48c-27c85bb1d998.jpg"
+                  src="https://cdn.poehali.dev/projects/05a98edc-4d4f-4557-b902-00cdae17e2eb/files/751b0038-f95e-48a2-9256-4c99152bd824.jpg"
                   alt="О компании"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover rounded-lg"
                 />
               </div>
             </div>
           </div>
         </section>
 
-        <section id="production" className="py-24 bg-white">
+        <section id="production" className="py-24 bg-background">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4">Производство</h2>
@@ -221,9 +221,9 @@ const Index = () => {
             <div className="grid md:grid-cols-3 gap-8">
               {[1, 2, 3, 4, 5, 6].map((item) => (
                 <div key={item} className="group cursor-pointer">
-                  <div className="relative h-[300px] overflow-hidden mb-4">
+                  <div className="relative h-[300px] overflow-hidden mb-4 rounded-lg">
                     <img 
-                      src="https://cdn.poehali.dev/projects/05a98edc-4d4f-4557-b902-00cdae17e2eb/files/6b9ea951-24c3-430d-af47-728c1fb00e84.jpg"
+                      src="https://cdn.poehali.dev/projects/05a98edc-4d4f-4557-b902-00cdae17e2eb/files/25e16a96-227c-4303-8d2e-6cfd0a012424.jpg"
                       alt={`Проект ${item}`}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
@@ -236,7 +236,7 @@ const Index = () => {
           </div>
         </section>
 
-        <section id="advantages" className="py-24 bg-white">
+        <section id="advantages" className="py-24 bg-background">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4">Наши преимущества</h2>
@@ -264,12 +264,12 @@ const Index = () => {
           </div>
         </section>
 
-        <section id="contacts" className="py-24 bg-black text-white">
+        <section id="contacts" className="py-24 bg-secondary text-foreground">
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12">
               <div>
                 <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">Свяжитесь с нами</h2>
-                <p className="text-gray-300 mb-8">
+                <p className="text-muted-foreground mb-8">
                   Готовы обсудить ваш проект? Оставьте заявку, и наш менеджер свяжется с вами в течение часа.
                 </p>
 
@@ -333,7 +333,7 @@ const Index = () => {
         </section>
       </main>
 
-      <footer className="bg-black text-white py-8 border-t border-gray-800">
+      <footer className="bg-secondary text-foreground py-8 border-t border-border">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-3 mb-4 md:mb-0">
@@ -344,7 +344,7 @@ const Index = () => {
               />
               <span className="text-lg font-playfair font-semibold">MAGIC GROUP</span>
             </div>
-            <div className="text-sm text-gray-400">
+            <div className="text-sm text-muted-foreground">
               © 2024 Magic Group. Все права защищены.
             </div>
           </div>
