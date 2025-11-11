@@ -81,7 +81,7 @@ const Index = () => {
       </header>
 
       <main className="pt-20">
-        <section id="home" className="min-h-screen flex items-center bg-secondary">
+        <section id="home" className="min-h-screen flex items-center animated-gradient">
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="space-y-6 animate-fade-in">
@@ -111,7 +111,7 @@ const Index = () => {
           </div>
         </section>
 
-        <section id="products" className="py-24 bg-background">
+        <section id="products" className="py-24 animated-gradient-alt">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4">Каталог продукции</h2>
@@ -141,7 +141,7 @@ const Index = () => {
           </div>
         </section>
 
-        <section id="about" className="py-24 bg-secondary">
+        <section id="about" className="py-24 animated-gradient">
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
@@ -183,7 +183,7 @@ const Index = () => {
           </div>
         </section>
 
-        <section id="production" className="py-24 bg-background">
+        <section id="production" className="py-24 animated-gradient-alt">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4">Производство</h2>
@@ -209,7 +209,7 @@ const Index = () => {
           </div>
         </section>
 
-        <section id="portfolio" className="py-24 bg-secondary">
+        <section id="portfolio" className="py-24 animated-gradient">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4">Портфолио</h2>
@@ -236,7 +236,7 @@ const Index = () => {
           </div>
         </section>
 
-        <section id="advantages" className="py-24 bg-background">
+        <section id="advantages" className="py-24 animated-gradient-alt">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-4">Наши преимущества</h2>
@@ -264,7 +264,7 @@ const Index = () => {
           </div>
         </section>
 
-        <section id="contacts" className="py-24 bg-secondary text-foreground">
+        <section id="contacts" className="py-24 animated-gradient text-foreground">
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12">
               <div>
